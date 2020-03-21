@@ -182,9 +182,7 @@ body{
 
    &__heart {
       flex-basis: 200px;
-      &:hover{
-         color: black;
-      }
+      
    }
 
    &__share {
@@ -196,7 +194,21 @@ body{
 
    &_icon-wrapper_w-heart-share{
       width: 50px;
+      
    }
+}
+.fas{
+   &:hover{
+      color: black;
+   }
+
+}
+
+.fas{
+   &:hover{
+      color: black;
+   }
+
 }
 
 .fa-calendar-alt {
