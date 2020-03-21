@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAWI,AAAD,iBAAO,CAAA;EACJ,MAAM,EAAE,eAAe;EACvB,gBAAgB,EAAE,gCAAgC;CACpD",
+    "sources": [
+        "../Scss/header_blog.scss"
+    ],
+    "names": [],
+    "file": "header_blog.css"
+}

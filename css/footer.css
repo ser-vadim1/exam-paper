@@ -1,0 +1,78 @@
+.footer {
+  position: relative;
+}
+
+.footer__container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.container__shelf-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.shelf-footer__logo-f {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.shelf-footer__icon-footer {
+  padding: 50px;
+}
+
+.shelf-footer__line-1 {
+  position: absolute;
+  background-color: #ebebeb;
+  height: 1px;
+  top: 50%;
+  bottom: -50%;
+  left: 0;
+  width: 100%;
+}
+
+.shelf-footer__line-2 {
+  position: absolute;
+  background-color: #ebebeb;
+  height: 1px;
+  top: 75%;
+  left: 0;
+  width: 100%;
+}
+
+.shelf-footer__sub {
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #b8b8b8;
+}
+
+.shelf-footer__sub span {
+  color: black;
+}
+
+.icon-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.icon-footer i {
+  padding-top: 5px;
+  padding-left: 40px;
+}
+
+@media (min-width: 700px) {
+  .icon-footer i {
+    padding-left: 60px;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

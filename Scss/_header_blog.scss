@@ -1,0 +1,95 @@
+$font_ro: 'Roboto', sans-serif;
+$font_lato: 'Lato', sans-serif;
+@mixin link {
+   font-family: 'Roboto', sans-serif;
+   color: #777777;
+   font-size: 1.2rem;
+   font-weight: bold;
+   
+}
+html {
+   -webkit-box-sizing: border-box;
+           box-sizing: border-box;
+   /*overflow-x: hidden;*/
+ }
+ 
+ *, *:after, *:before {
+   -webkit-box-sizing: inherit;
+           box-sizing: inherit;
+ }
+.background {
+
+   &__blog{
+      background-image: url(../IMG/back_header_blog.jpg);
+      height: 422px;
+   }
+
+   &__container-blog {
+      max-width: 380px;
+      height: 100%;
+      @media (min-width: 800px){
+         &{
+            max-width: 1148px;
+            margin: 0 auto;
+         }
+      }
+   }
+
+   &__row-r {
+   }
+
+   &__row-l {
+   }
+
+}
+
+.container {
+
+   &_head_left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+   }
+
+   
+   &__head-title_size_sm{
+      font-size: 18px;
+      width: 380px;
+
+      @media screen and (min-width: 900px){
+          &{
+             border: 1px solid black;
+             width: auto;
+          }
+      }
+
+      @media screen and (min-width: 320px){
+         &{
+            font-size: calc(18px + 10 * ((100vw - 320px)/880));
+         }
+      }
+      @media screen and (min-width: 1200px){
+         &{
+            font-size: 28px;
+         }
+      }
+   }
+   &__head-title {
+
+   }
+
+   &__sub--title {
+   }
+}
+
+
+
+
+
+
+
+
+
+
+

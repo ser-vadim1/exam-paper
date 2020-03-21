@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAKI,AAAD,mBAAY,CAAC;EACV,SAAS,EAAE,KAAK;EAChB,MAAM,EAAE,MAAM;CAChB",
+    "sources": [
+        "../Scss/section-gallery.scss"
+    ],
+    "names": [],
+    "file": "section-gallery.css"
+}

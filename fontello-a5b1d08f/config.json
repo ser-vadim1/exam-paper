@@ -1,0 +1,28 @@
+{
+  "name": "",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "7e092c82e9a758b6e95297007969aac1",
+      "css": "left-circle",
+      "code": 59394,
+      "src": "websymbols"
+    },
+    {
+      "uid": "d30928620bda0d5eaa85d3b65bf19963",
+      "css": "right-circle",
+      "code": 59396,
+      "src": "websymbols"
+    },
+    {
+      "uid": "b945f4ac2439565661e8e4878e35d379",
+      "css": "gplus",
+      "code": 62223,
+      "src": "entypo"
+    }
+  ]
+}
