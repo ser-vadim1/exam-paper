@@ -245,7 +245,6 @@ body{
    }
 
    &__box-recent-posts {
-      // max-width: 350px;
       margin: 0 auto;
       margin-top: 30px;
       @media screen and (min-width: 900px){
@@ -257,7 +256,6 @@ body{
    }
 
    &__box-tag {
-      // max-width: 350px;
       margin: 0 auto;
       @media screen and (min-width: 900px){
          &{
@@ -275,8 +273,6 @@ body{
 }
 .box-search {
    position: relative;
-   border: 1px solid black;
-   // display: none;
 
    &__form {
    }
