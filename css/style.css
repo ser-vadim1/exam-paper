@@ -41,9 +41,6 @@ html {
   padding-top: 25px;
 }
 
-.shelf {
-}
-
 .shelf__button {
   margin-left: 50%;
   -webkit-transform: translateX(-50%);
@@ -308,39 +305,29 @@ html {
   padding-bottom: 20px;
 }
 
+.shelf-footer__img-f {
+  display: block;
+  background-color: none;
+}
+
 .shelf-footer__icon-footer {
+  position: relative;
   padding: 50px;
 }
 
-.shelf-footer__line-1 {
+.shelf-footer__icon-footer:before {
+  display: block;
   position: absolute;
-  background-color: #ebebeb;
-  height: 1px;
-  top: 45%;
-  bottom: -50%;
-  left: 0;
-  width: 100%;
-}
-
-@media (min-width: 700px) {
-  .shelf-footer__line-1 {
-    top: 50%;
-  }
-}
-
-.shelf-footer__line-2 {
-  position: absolute;
-  background-color: #ebebeb;
-  height: 1px;
-  top: 78%;
-  left: 0;
-  width: 100%;
-}
-
-@media (min-width: 700px) {
-  .shelf-footer__line-2 {
-    top: 70%;
-  }
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  content: "";
+  height: 60%;
+  color: black;
+  min-width: 100vw;
+  border-top: 2px solid #ebebeb;
+  border-bottom: 2px solid #ebebeb;
 }
 
 .shelf-footer__sub {
@@ -362,15 +349,12 @@ html {
 }
 
 .icon-footer i {
-  padding-top: 30px;
-  padding-left: 30px;
+  padding-left: 40px;
 }
 
-@media (min-width: 700px) {
-  .icon-footer i {
-    padding-top: 0px;
-    padding-left: 60px;
-  }
+.icon-footer__link {
+  text-decoration: none;
+  color: black;
 }
 
 .fab:hover {
@@ -398,7 +382,7 @@ html {
 
 .background__blog {
   background-image: url(../IMG/back_header_blog.jpg);
-  height: 422px;
+  min-height: 422px;
 }
 
 .background__container-blog {
@@ -436,7 +420,6 @@ html {
 
 @media screen and (min-width: 900px) {
   .container__head-title_size_sm {
-    border: 1px solid black;
     width: auto;
   }
 }
@@ -612,16 +595,20 @@ body img {
       flex-basis: 200px;
 }
 
-.all-icons__heart:hover {
-  color: black;
-}
-
 .all-icons__share:hover {
   color: black;
 }
 
 .all-icons_icon-wrapper_w-heart-share {
   width: 50px;
+}
+
+.fas:hover {
+  color: black;
+}
+
+.fas:hover {
+  color: black;
 }
 
 .fa-calendar-alt {
@@ -692,7 +679,7 @@ body img {
 .box-search__search {
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  color: #fafafa;
+  color: black;
   width: 100%;
   font-size: 15px;
   font-style: italic;
@@ -975,10 +962,9 @@ body img {
 }
 
 html {
-  height: 100vw;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  /*overflow-x: hidden;*/
+  overflow-x: hidden;
 }
 
 *, *:after, *:before {
@@ -1092,7 +1078,7 @@ html {
 
 .background__home {
   position: relative;
-  height: 650px;
+  min-height: 650px;
   background-image: url(../IMG/back_header.jpg);
 }
 

@@ -16,10 +16,10 @@ $font_lato: 'Lato', sans-serif;
 @import "blog_gallery";
 
 html {
-   height: 100vw;
+   // height: 100vw;
    -webkit-box-sizing: border-box;
            box-sizing: border-box;
-   /*overflow-x: hidden;*/
+   overflow-x: hidden;
  }
 
  
@@ -136,7 +136,7 @@ html {
 
    &__home{
       position: relative;
-      height: 650px;
+      min-height: 650px;
       background-image: url(../IMG/back_header.jpg);
       
    }

@@ -21,7 +21,7 @@ html {
 
    &__blog{
       background-image: url(../IMG/back_header_blog.jpg);
-      height: 422px;
+      min-height: 422px;
    }
 
    &__container-blog {
