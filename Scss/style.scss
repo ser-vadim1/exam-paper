@@ -7,6 +7,7 @@ $font_lato: 'Lato', sans-serif;
    font-weight: bold;
    
 }
+@import 'about/about';
 @import 'portfolio-header/portfolio-header';
 @import 'section-gallery/section-gallery';
 @import 'header-blog//header_blog';
@@ -18,7 +19,7 @@ html {
    height: 100vw;
    -webkit-box-sizing: border-box;
    box-sizing: border-box;
-   // overflow-x: hidden;
+   overflow-x: hidden;
  }
 
  
